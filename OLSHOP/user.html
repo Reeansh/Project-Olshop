@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeeraStore | Ecommerce Beauty</title>
+
+	<link rel="icon" href="logo.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section starts-->
+    <header>
+        <div class="ikon">
+            <div class="fas fa-bars" id="bars-menu"><a href="#menu"> menu </a></div>
+            <div class="fas fa-search" id="search-ikon"><a href="#search"> search </a></div>
+            <div class="fas fa-map-marker" id="find-us"> <a href="#findus"> find us </a></div>
+        </div>
+
+        <div class="jdl">
+			<h1 class="logo"><a class="active" href="index.html"> TeeraStore </a></h1>
+			<nav class="navbar">
+				<a href="bestseller.html">BEST SELLERS</a>
+				<a href="#">SKINCARE</a>
+				<a href="#">BODY & HAIR CARE</a>
+				<a href="#">SHOP ALL</a>
+				<a href="#">THIS IS TEERASTORE</a>
+			</nav>
+		</div>
+
+        <div class="icons">
+            <div class="fas fa-shopping-cart" id="cart-btn"><a href="#trolley"> trolley</a></div>
+            <div class="fas fa-user-circle" id="user-btn"><a href="user.html"> account </a></div>
+        </div>
+    </header>
+    <!-- header section ends-->
+
+	<!-- login form -->
+	<form action="" id="search-form">
+		<input type="search" placeholder="search here..." name="" id="search-box">
+		<label for="search-box" class="fas fa-search"></label>
+		<i class="fas fa-times" id="close"></i>
+	</form>
+
+	<!-- account starts -->
+	<section class="account" id="account">
+		
+		<div class="jdl">
+			<h1>Welcome back, Me !</h1>
+			<a href="#">Sign Out <i class="fa fa-angle-right"></i></a>
+		</div>
+
+		<div class="recent-grid">
+			<div class="purchase">
+				<div class="payment-header">
+					<p><i class="fas fa-clipboard-list"></i> Purchase</p>
+					<a href="#">View Purchase History <i class="fa fa-angle-right"></i></a>
+				</div>
+
+				<div class="payment-body">
+					<table width="100%">
+						<tr>
+							<td>
+								<a href="#"><i class="fa fa-credit-card"></i></a>
+							</td>
+
+							<td>
+								<a href="#"><i class="fa fa-cube"></i></a>
+							</td>
+
+							<td>
+								<a href="#"><i class="fa fa-truck"></i></a>
+							</td>
+
+							<td>
+								<a href="#"><i class="fa fa-star"></i></a>
+							</td>
+						</tr>
+
+						<tr>
+							<td><a href="#">To Pay</a></td>
+							<td><a href="#">To Ship</a></td>
+							<td><a href="#">To Recive</a></td>
+							<td><a href="#">To Rate</a></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+            <div class="messages">
+				<div class="messages-header">
+					<p><i class="fa fa-comments"></i> Messages</p>
+				</div>
+
+				<div class="messages-body">
+					<table width="100%">
+						<tr>
+							<td>
+								<h3><i class="fa fa-bullhorn"></i> Promo 4.4 Sale</h3>
+								<p>Lorem ipsum sndjfhebchjbfkkkebfhbjscehbfvshsfbshb</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<h3><i class="fa fa-bullhorn"></i> Promo 4.4 Sale</h3>
+								<p>Lorem ipsum sndjfhebchjbfkkkebfhbjscehbfvshsfbshb</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<h3><i class="fa fa-bullhorn"></i> Promo 4.4 Sale</h3>
+								<p>Lorem ipsum sndjfhebchjbfkkkebfhbjscehbfvshsfbshb</p>
+							</td>
+						</tr>
+
+						<tr>
+							<td>
+								<h3><i class="fa fa-bullhorn"></i> Promo 4.4 Sale</h3>
+								<p>Lorem ipsum sndjfhebchjbfkkkebfhbjscehbfvshsfbshb</p>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+			<div class="setting">
+				<div class="setting-header">
+					<p><i class="fa fa-cog"></i> Account Setting</p>
+				</div>
+
+				<div class="setting-body">
+					<form action="">
+						<table width="100%">
+							<tr>
+								<td>
+									<input type="text" placeholder="First Name">
+								</td>
+
+								<td>
+									<input type="text" placeholder="Last Name">	
+                                </td>
+                            </tr>
+
+                            <tr>
+								<td>
+									<input type="email" placeholder="Email">
+								</td>
+
+								<td>
+                                    <label for="phone"></label>
+									<input type="tel" placeholder="Phone" id="phone">	
+                                </td>
+                            </tr>
+
+                            <tr>
+								<td>
+									<input type="password" placeholder="Password">
+								</td>
+
+								<td>
+									<input type="password" placeholder="Confirm Password">	
+                                </td>
+                            </tr>
+
+                            <tr>
+								<td>
+									<input type="password" placeholder="Current Password">
+								</td>
+
+								<td>
+									<select name="" id="">
+										<option value="Birthday Month">Birthday Month</option>
+										<option value="Januari">January</option>
+										<option value="Februari">February</option>
+										<option value="Maret">March</option>
+										<option value="April">April</option>
+										<option value="Mei">May</option>
+										<option value="Juni">June</option>
+										<option value="Juli">July</option>
+										<option value="Agustus">August</option>
+										<option value="September">September</option>
+										<option value="Oktober">October</option>
+										<option value="November">November</option>
+										<option value="Desember">December</option>
+									</select>	
+                                </td>
+                            </tr>
+
+                            <tr>
+								<td>
+									<select name="" id="">
+										<option value="Birth Date">Birth Date</option>
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+										<option value="11">11</option>
+										<option value="12">12</option>
+										<option value="13">13</option>
+										<option value="14">14</option>
+										<option value="15">15</option>
+										<option value="16">16</option>
+										<option value="17">17</option>
+										<option value="18">18</option>
+										<option value="19">19</option>
+										<option value="20">20</option>
+										<option value="21">21</option>
+										<option value="22">22</option>
+										<option value="23">23</option>
+										<option value="24">24</option>
+										<option value="25">25</option>
+										<option value="26">26</option>
+										<option value="27">27</option>
+										<option value="28">28</option>
+										<option value="29">29</option>
+										<option value="30">30</option>
+										<option value="31">31</option>
+									</select>
+								</td>
+
+                                <td></td>
+                            </tr>
+
+							<tr class="klik">
+								<td>
+									<input type="submit" name="" id="" value="UPDATE" class="btn">
+								</td>
+							</tr>
+						</table>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- account ends -->
+
+	<!-- footer starts -->
+	<footer>
+
+		<div class="box">
+
+			<img src="logo.png" alt="">
+
+			<div class="foot">
+			<h3>COMPANY</h3>
+				<div class="content">
+					<p><a href="#">Find TeeraStore Near You</a></p>
+					<p><a href="#">Shop</a></p>
+				</div>
+			</div>
+
+			<div class="foot">
+				<h3>CUSTOMER CARE</h3>
+				<div class="content">
+					<p><a href="#">Contact Us</a></p>
+					<p><a href="#">Shipping</a></p>
+					<p><a href="#">Returns</a></p>
+					<p><a href="#">Ordering & Payments</a></p>
+				</div>
+			</div>
+
+			<div class="foot">
+				<h3>THE FUN STUFF</h3>
+				<div class="content">
+					<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+					<a href="https://wa.me/6281398476750"><i class="fab fa-whatsapp"></i></a>
+					<a href="#"><i class="fab fa-tiktok"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<p>@ 2022 TeeraStore Word Inc.- Create Design By Taree Anisah Herdanawati</p>
+
+	</footer>
+	<!-- footer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom file js link -->
+    <script src="script.js"></script>
+</body>
+</html>

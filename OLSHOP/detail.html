@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeeraStore | Ecommerce Beauty</title>
+
+	<link rel="icon" href="logo.png">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header section starts-->
+    <header>
+        <div class="ikon">
+            <div class="fas fa-bars" id="bars-menu"><a href="#menu"> menu </a></div>
+            <div class="fas fa-search" id="search-ikon"><a href="#search"> search </a></div>
+            <div class="fas fa-map-marker" id="find-us"> <a href="#findus"> find us </a></div>
+        </div>
+
+        <div class="jdl">
+			<h1 class="logo"><a class="active" href="index.html"> TeeraStore </a></h1>
+			<nav class="navbar">
+				<a href="bestseller.html">BEST SELLERS</a>
+				<a href="#">SKINCARE</a>
+				<a href="#">BODY & HAIR CARE</a>
+				<a href="#">SHOP ALL</a>
+				<a href="#">THIS IS TEERASTORE</a>
+			</nav>
+		</div>
+
+        <div class="icons">
+            <div class="fas fa-shopping-cart" id="cart-btn"><a href="#trolley"> trolley</a></div>
+            <div class="fas fa-user-circle" id="user-btn"><a href="user.html"> account </a></div>
+        </div>
+    </header>
+    <!-- header section ends-->
+
+    <!-- login form -->
+	<form action="" id="search-form">
+		<input type="search" placeholder="search here..." name="" id="search-box">
+		<label for="search-box" class="fas fa-search"></label>
+		<i class="fas fa-times" id="close"></i>
+	</form>
+
+    <!-- detail produk starts-->
+    <section class="produk">
+        <div class="image-detail">
+            <img src="Toner.jpg" alt="">
+        </div>
+            
+        <div class="detail">
+            <h3>Toner</h3>
+            <p>Toner merupakan produk perawatan kulit yang digunakan pada wajah menggunakan kapas. Teksturnya encer, berbahan lembut, dan tidak iritatif, sehingga cukup aman digunakan untuk membersihkan wajah.</p> </br>
+             
+            <table>
+                <tr>
+                    <td>
+                        <div class="sizing">
+                            <label for="">Size :</label> </br>
+                            <select name="" id="">
+                                <option value="">1.1 fl oz</option>
+                                <option value="">1.2 fl oz</option>
+                                <option value="">1.3 fl oz</option>
+                                <option value="">1.4 fl oz</option>
+                            </select>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="sizing">
+                            <label for="quntity">Qty :</label> </br>
+                            <input type="number" name="" id="quntity" min="1" max="10" value="1">
+                        </div>  
+                    </td>
+                </tr>
+            </table>
+            
+            <a href="#" class="btn">ADD TO TROLLEY</a>
+        	
+		</div>
+    </section>
+
+    <section class="view">
+        <h3>Key Ingredients</h3>
+
+        <div class="box-container">
+            <div class="box">
+                <table>
+                    <tr>
+                        <td>
+                            <p>Lorem ipsum akadjbahbu, deskripsi produk kegunaan produk, komposisi produk.
+                                Lorem ipsum akadjbahbu, deskripsi produk kegunaan produk, komposisi produk.
+                                Lorem ipsum akadjbahbu, deskripsi produk kegunaan produk, komposisi produk.
+                            </p>
+                            <a href="#">Read more ... </a>
+                        </td>
+
+                        <td>
+                            <img src="logo.png" alt="">
+                        </td>
+
+                        <td>
+                            <img src="logo.png" alt="">
+                        </td>
+
+                        <td>
+                            <img src="logo.png" alt="">
+                        </td>
+
+                        <td>
+                            <img src="logo.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="write">
+        
+        <h3>157 Ratings</h3> 
+        <h3>165 Reviews</h3>
+        
+        <div class="box-container">
+            <div class="box">
+                <table>
+                    <tr>
+                        <td class="rating">
+                            <h1>4.5</h1>
+                            <p>out of 5 stars</p>
+                    
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>  
+                        </td>
+
+                        <td class="viewrs">
+                            <p>Apr 5, 2022</p>
+
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+
+                            <p>So good!</p>
+                        </td>
+                        
+                        <td class="write-desc">
+                            <p>Lorem ipsum akadjbahbu, deskripsi produk kegunaan produk, komposisi produk.
+                                Lorem ipsum akadjbahbu, deskripsi produk kegunaan produk, komposisi produk.
+                                Lorem ipsum akadjbahbu, deskripsi produk kegunaan produk, komposisi produk.
+                            </p>
+                        </td>
+
+                        <td>
+                            <input type="submit" name="" id="" value="WRITE A REVIEW" class="btn">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- detail produk ends-->
+
+	<!-- footer starts -->
+	<footer>
+
+		<div class="box">
+
+			<img src="logo.png" alt="">
+
+			<div class="foot">
+			<h3>COMPANY</h3>
+				<div class="content">
+					<p><a href="#">Find TeeraStore Near You</a></p>
+					<p><a href="#">Shop</a></p>
+				</div>
+			</div>
+
+			<div class="foot">
+				<h3>CUSTOMER CARE</h3>
+				<div class="content">
+					<p><a href="#">Contact Us</a></p>
+					<p><a href="#">Shipping</a></p>
+					<p><a href="#">Returns</a></p>
+					<p><a href="#">Ordering & Payments</a></p>
+				</div>
+			</div>
+
+			<div class="foot">
+				<h3>THE FUN STUFF</h3>
+				<div class="content">
+					<a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+					<a href="https://wa.me/6281398476750"><i class="fab fa-whatsapp"></i></a>
+					<a href="#"><i class="fab fa-tiktok"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<p>@ 2022 TeeraStore Word Inc.- Create Design By Taree Anisah Herdanawati</p>
+
+	</footer>
+	<!-- footer ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom file js link -->
+    <script src="script.js"></script>
+</body>
+</html>
